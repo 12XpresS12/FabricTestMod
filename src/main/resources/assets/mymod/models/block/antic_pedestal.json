@@ -1,0 +1,76 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "mymod:block/antic_pedestal",
+		"particle": "mymod:block/antic_pedestal"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 10, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 15, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 15, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 14.75, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 14.75, 8], "texture": "#1"},
+				"up": {"uv": [3.5, 3.5, 0, 0], "texture": "#missing"},
+				"down": {"uv": [15.5, 0.5, 0.5, 15.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 8.25, 0],
+			"to": [16, 10.25, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 15.95, 2.1], "texture": "#1"},
+				"up": {"uv": [1, 0.75, 15.5, 15.25], "texture": "#1"},
+				"down": {"uv": [1, 0.75, 15.5, 15.25], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 10.25, 5],
+			"to": [12, 15.25, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 15.95, 8.1], "texture": "#1"},
+				"up": {"uv": [1, 0.75, 15.5, 15.25], "texture": "#1"},
+				"down": {"uv": [1, 0.75, 15.5, 15.25], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.38867, 0.38867, 0.38867]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.38867, 0.38867, 0.38867]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.57813, 0.57813, 0.57813]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.57813, 0.57813, 0.57813]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.61328, 0.61328, 0.61328]
+		},
+		"gui": {
+			"rotation": [23.5, 18.25, 0],
+			"translation": [0.5, 0.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 4.75, 0],
+			"scale": [1.35156, 1.35156, 1.35156]
+		},
+		"fixed": {
+			"scale": [0.79102, 0.79102, 0.79102]
+		}
+	}
+}
